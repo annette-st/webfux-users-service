@@ -1,7 +1,7 @@
-package ru.itis.covid.clients;
+package ru.itis.users.clients;
 
 import reactor.core.publisher.Flux;
-import ru.itis.covid.entries.InfoUsers;
+import ru.itis.users.entries.InfoUsers;
 
 public interface InfoUsersClient {
     //Flux<CovidStatistic> getAll();

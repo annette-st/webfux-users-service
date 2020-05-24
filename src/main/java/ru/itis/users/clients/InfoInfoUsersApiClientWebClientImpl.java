@@ -1,4 +1,4 @@
-package ru.itis.covid.clients;
+package ru.itis.users.clients;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.ExchangeStrategies;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Flux;
-import ru.itis.covid.entries.InfoUsers;
-import ru.itis.covid.entries.InfoUsersResponse;
+import ru.itis.users.entries.InfoUsers;
+import ru.itis.users.entries.InfoUsersResponse;
 
 @Component
 public class InfoInfoUsersApiClientWebClientImpl implements InfoUsersClient {

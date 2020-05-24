@@ -1,11 +1,11 @@
-package ru.itis.covid.service;
+package ru.itis.users.service;
 
         import org.springframework.beans.factory.annotation.Autowired;
         import org.springframework.stereotype.Service;
         import reactor.core.publisher.Flux;
         import reactor.core.scheduler.Schedulers;
-        import ru.itis.covid.clients.InfoUsersClient;
-        import ru.itis.covid.entries.InfoUsers;
+        import ru.itis.users.clients.InfoUsersClient;
+        import ru.itis.users.entries.InfoUsers;
 
         import java.util.List;
         import java.util.stream.Collectors;

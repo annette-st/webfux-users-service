@@ -1,4 +1,4 @@
-package ru.itis.covid.entries;
+package ru.itis.users.entries;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
